@@ -1,11 +1,10 @@
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
 
-class Hire(models.Model):
+class HireCorporate(models.Model):
     SERVICE = (
-        ('tents', 'tents'),
-        ('catering', 'catering'),
-        ('electronics', 'electronics')
+        ('corporate', 'corporate'),
+        ('social','social')
     )
     applicant_name = models.CharField(max_length=100, blank=False, null=False)
     phone = PhoneNumberField()
