@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'phonenumber_field',
     'HireApplications',
     'HireCorporateSocial',
+    'Team',
+    'Gallery',
 ]
 
 MIDDLEWARE = [
